@@ -1,0 +1,51 @@
+
+body {
+  color: floralwhite;
+  background-color: black;
+  font-family: Tahoma, sans-serif;
+  
+}
+h1{
+  font-size: 100px;
+}
+#myInput {
+  width: 80%;
+  font-size: 36px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 100px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+dl > div {
+ 
+  padding: 30px 0 0 0;
+}
+
+dt {
+  background-color: floralwhite;
+  border: 1px solid #989EA4;
+  color: black;
+  font: bold 70px/45px Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+}
+
+dd {
+  font: bold 40px/45px Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 50px 50px ;
+  white-space: nowrap;
+}
+
+dd + dd {
+  border-top: 1px solid #CCC;
+}

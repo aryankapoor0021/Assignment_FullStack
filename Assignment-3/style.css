@@ -1,0 +1,25 @@
+body{
+	background-color: black;
+
+}
+div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+button{
+	font-size: 20px;
+	padding: 14px 40px;
+	background-color: black;
+	border: 2px solid gold;
+	color: floralwhite;
+	transition-duration: 0.5s;
+	
+}
+button:hover{
+	border: 2px solid silver;
+	box-shadow: 0 2px 32px -1px grey;
+	transform: translateY(-18px);
+
+}

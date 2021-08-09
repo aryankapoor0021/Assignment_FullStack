@@ -1,0 +1,215 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color:  #79031D;
+}
+
+nav{
+	background-color: black;
+}
+nav h2 {
+  -webkit-text-stroke:1px white;
+}
+nav .container-fluid button{
+	border: 1px solid black;
+	background-color: black;
+}
+nav .container-fluid button:hover{
+	transition:0.4s;
+	background-color:  #79031D;
+	border: 1px solid #79031D;
+}
+.main{
+	width: 100%;
+	margin: 20px 10px;
+	background-color: black;
+	padding-top: 16px;
+}
+.main img{
+	 width: 100%;
+}
+
+.main h1 {
+	font-size: 5rem;
+  -webkit-text-stroke:2px white;
+}
+.main h2 {
+	font-size:2rem;
+  -webkit-text-stroke:1px white;
+}
+.info h3{
+	font-size:1.5rem;
+	-webkit-text-stroke:0.5 px white;
+	font-weight:lighter;
+  color:#DCDCDC	;	
+}
+.main .info{
+	margin-top: 10%;
+	margin-bottom: 4%;
+}
+
+.btn-lgn{
+	padding: 2px;
+	border-radius:70%;
+}
+.aboutme h2{
+	font-size: 3rem;
+}
+.about a{
+  color: white;
+}
+.skills{
+	width: 100%;
+	margin: 20px 10px;
+	background-color: black;
+	padding-top: 16px;
+
+}
+.skills .list-group  li{
+ background-color: black;
+ color: floralwhite;
+}
+.skills .list-group  li:hover{
+	transition: 0.4s;
+ background-color:#79031D ;
+ color: floralwhite;
+ font-weight: bold;
+ cursor: pointer;
+}
+.skills h2{
+		font-size:3rem;
+  -webkit-text-stroke:1px white;
+}
+.projects{
+	width: 100%;
+	margin: 20px 10px;
+	background-color: black;
+	
+}
+.projects .card{
+	color: black;
+	-webkit-text-stroke:0.4px black;
+}
+.projects h2{
+	font-size:3rem;
+  -webkit-text-stroke:1px white;
+
+}
+.projects h4{
+	font-size:1.5rem;
+  -webkit-text-stroke:1px white;
+
+}
+.projects h4:hover{
+	opacity: 0.7;
+	transition: 0.4s;
+	font-size:1.5rem;
+  -webkit-text-stroke:1px white;
+}
+.footer a{
+	transition: 0.5s;
+}
+.footer{
+	background-color: black;
+	width: 100%;
+  position: relative;
+	bottom:0;
+	left:0;
+	right:0;	
+	margin:auto;
+}
+.footer .footer-content{
+	padding-top: 20px;
+	padding-left: 0px; 
+	padding-right: 0px;
+}
+ .swipe{
+	animation-name: hello;
+	animation-duration: 2s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+@keyframes hello{
+	0%{
+		transform: rotateX(-90deg);
+	}
+	50%{
+		transform: rotateX(0deg);
+	}
+	100%{
+		transform: rotateX(90deg);
+	}
+}
+ .swipe1{
+	animation-name: hello1;
+	animation-duration: 2s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+@keyframes hello1{
+	0%{
+		transform: rotateY(-90deg);
+	}
+	50%{
+		transform: rotateY(0deg);
+	}
+	100%{
+		transform: rotateY(90deg);
+	}
+}
+/*animations*/
+ .swipe{
+	animation-name: hello;
+	animation-duration: 2s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+@keyframes hello{
+	0%{
+		transform: rotateX(-90deg);
+	}
+	50%{
+		transform: rotateX(0deg);
+	}
+	100%{
+		transform: rotateX(90deg);
+	}
+}
+ .swipe1{
+	animation-name: hello1;
+	animation-duration: 2s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+@keyframes hello1{
+	0%{
+		transform: rotateY(-90deg);
+	}
+	50%{
+		transform: rotateY(0deg);
+	}
+	100%{
+		transform: rotateY(90deg);
+	}
+}
+.hand .emo{
+	font-size: 100px;
+}
+.hand{
+	animation-name: wave;
+	animation-timing-function: linear;
+	animation-duration: 2s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+@keyframes wave{
+	0% { transform: rotate( 0.0deg) }
+  10% { transform: rotate(24.0deg) }  
+  30% { transform: rotate(0.0deg) }
+  60% { transform: rotate(14.0deg) }
+  80% { transform: rotate(0.0deg) }
+  100% { transform: rotate(10.0deg) }
+}

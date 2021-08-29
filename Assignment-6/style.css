@@ -1,0 +1,117 @@
+body{
+	background-color:#79031D;
+}
+header{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	margin-bottom:2%;
+	background-color: #09031D;
+	height: 150px;
+	width: 500px;
+	border-radius: 15px;
+}
+header .heading{
+	padding: 20px;
+}
+header h1{
+	font-size: 70px;
+}
+.container-fluid{
+	background-color: #09031D;
+	height: 100px;
+	width: 400px;
+	border-radius: 15px;
+	margin-top:5vh;
+	padding-bottom: 65px;
+}
+.container-fluid input{
+	margin:7%;
+	padding:5px;
+    font-size: 1.7rem;
+
+}
+
+.container1{
+	/*background-color: #4B0082 ;*/
+	color: white;
+	max-height: 100%;
+	max-width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	margin-bottom:2%;
+	border-radius: 15px;
+}
+
+.inputag{
+	color: white;
+	border: 0;
+	background-color: #09031D;
+}
+.each-row{
+	border: 2px solid #79031D;
+	color: white;
+	padding: 10px 5px;
+
+}
+.clicked{
+	border: 2px sold white;
+}
+
+.star{
+	color:#FD0E35;
+
+}
+.up{
+	color: red;
+}
+.up:hover{
+	cursor: pointer;
+}
+.down{
+	color: green;
+}
+.down:hover{
+	cursor: pointer;
+}
+.del{
+	color: #5DADEC;
+}
+.del:hover{
+	cursor: pointer;
+}
+.edit{
+	color: #FF5470;
+}
+.edit:hover{
+	cursor: pointer;
+}
+#list{
+	background-color: #09031D;
+}
+.classname {
+  /*animation-name: cssAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;*/
+  position: absolute;
+  top: 8px;
+  right: 0;
+  font-size: 14px;
+  transform: translateX(100%);
+  margin-right: -10px;
+  cursor: pointer;
+  color: #9da1af;
+  transition: color 2s linear;
+}
+@keyframes cssAnimation {
+  from {
+    transform: rotate(0deg) scale(1) skew(0deg) translate(100px);
+  }
+  to {
+    transform: rotate(0deg) scale(2) skew(0deg) translate(100px);
+    display: none;
+  }
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Weather App</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+          <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+
+	</head>
+	<body>
+	<center>
+
+	<header>
+	<div class="container-fluid mt-5">
+		<h1 class="text-light">Weather App</h1>
+	</div>
+	</header>
+     <div class="container-fluid m-3">
+          <form>
+            <input type="text" name="city" placeholder="Enter City">
+            <button class="btn btn-dark" type="submit">Search</button>
+          </form>
+     </div>
+	<div class="container" id="wrapper">
+          <div class="container-fluid" id="current-weather">
+             <div class="row">
+               <div class="col-md-4 col-sm-5">
+                    <h5 id="city">City</h5>
+                    <h6 id="date"></h6>
+                    <h5 id="time"></h5>
+               </div>
+               <div class="col-md-5 col-sm-7" style="margin: 10px auto;padding:0;">
+                    <div class="row">
+                    <i class="wi" id ="main-icon" style="font-size: 85px;"></i>
+                    <div>
+                         <h4><spam id="temp"><p style="font-size: 1.5rem;"><a href="#" class="active" id="cel">°C</a></p></spam></h4>
+                         <p id="tempdet"></p>
+                    </div>
+                    </div>
+               </div>
+               <div class="col-xs-12 col-sm-12 col-md-3 row" style="text-align: right;">
+                    <div class="col-md-12 col-sm-3 col-xs-3 side-weather-info">
+                         <h6>High: <spam id="maxtemp"></spam>°</h6>
+                    </div>
+                    <div class="col-md-12 col-sm-3 col-xs-3 side-weather-info">
+                         <h6>Low: <spam id="mintemp"></spam>°</h6>
+                    </div>
+               </div>
+               </div>
+               </div>
+          <div class="container-fluid">
+               <div class="row" style="padding: 3px;">
+               <div class="col-md-3 col-sm-6 day-weather-box">
+                    <div class="col-sm-12 day-weather-inner-box">
+                    <div class="col-sm-8 forecast-main">
+                         <p id="forecast-day-1-name">Humidity</p>
+                         <div class="row">
+                              <h5  id="forecast-day-1-main"><span id="humid">%</span></h5>
+                         </div>
+                    </div>
+                    </div>
+               </div>
+               <div class="col-md-3 col-sm-6 day-weather-box">
+                    <div class="col-sm-12 day-weather-inner-box">
+                    <div class="col-sm-8 forecast-main">
+                         <p id="forecast-day-1-name">Wind</p>
+                         <div class="row">
+                              <h6 id="forecast-day-1-main"><span id="speed">m/s</span></h6>
+                         </div>
+                    </div>
+                    </div>
+               </div>
+               <div class="col-md-3 col-sm-6 day-weather-box">
+                    <div class="col-sm-12 day-weather-inner-box">
+                    <div class="col-sm-8 forecast-main">
+                         <p id="forecast-day-1-name">Pressure</p>
+                         <div class="row">
+                              <h6 id="forecast-day-1-main"><span id="pres">Pa</span></h6>
+                         </div>
+                    </div>
+                    </div>
+               </div>
+               <div class="col-md-3 col-sm-6 day-weather-box">
+                    <div class="col-sm-12 day-weather-inner-box">
+                    <div class="col-sm-8 forecast-main">
+                         <p  id="forecast-day-1-name">Feel'sLike</p>
+                         <div class="row">
+                              <h6 id="forecast-day-1-main"><span id="feels_like">°C</span></h6>
+                         </div>
+                    </div>
+                    </div>
+               </div>
+
+      
+               </div>
+          </div>
+          </div>
+     </div>
+
+     </center>
+     <script src="app.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+	</body>
+</html>

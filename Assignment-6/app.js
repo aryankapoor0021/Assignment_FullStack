@@ -16,7 +16,10 @@ function addItem(val)
       RenderList(val);
       inp.value="";
       console.log(val);
-    }    
+    }   
+    else{
+        alert("Please write something..")
+    } 
 }
 
 function RenderList(val)
